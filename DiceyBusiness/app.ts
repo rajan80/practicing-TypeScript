@@ -1,8 +1,8 @@
 
-let generateDie: HTMLElement = document.getElementById("generate-btn");
-let rollDice: HTMLElement = document.getElementById("roll-btn");
-let sum: HTMLElement = document.getElementById("sum-btn");
-let container: HTMLElement = document.getElementById("container");
+let generateDie  = <HTMLButtonElement>document.getElementById("generate-btn");
+let rollDice = <HTMLButtonElement>document.getElementById("roll-btn");
+let sum= <HTMLButtonElement>document.getElementById("sum-btn");
+let container= <HTMLDivElement>document.getElementById("container");
 
 let diceArray: Die[] = [];
 

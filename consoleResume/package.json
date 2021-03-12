@@ -1,0 +1,19 @@
+{
+  "name": "consoleresume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "resume.js",
+  "dependencies": {
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "webpack-cli": "^4.5.0",
+    "webpack": "^5.25.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"webpack -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,31 @@
+.dice {
+    display: flex;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 3em;
+    margin: 1em;
+    text-align: center;
+    justify-content: center;
+  }
+  #generate-btn {
+    background-color: tomato;
+    height: 50px;
+  }
+  
+  #roll-btn {
+    flex-wrap: wrap;
+    background-color: yellowgreen;
+    height: 50px;
+    margin: 3em;
+  }
+  
+  #sum-btn {
+    background-color: turquoise;
+    height: 50px;
+  }
+  alert{
+      text-rendering: auto;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
